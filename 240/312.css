@@ -1,0 +1,17 @@
+#menu {
+	display: flex;
+}
+#menu a {
+	margin-right: 5px;
+	padding: 20px 40px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid #55CF85;
+	background-color: #55CF85;
+}
+#menu a:hover, #menu a.active {
+	color: #55CF85;
+	border: 1px solid #55CF85;
+	background-color: #F5F6FA;
+}
